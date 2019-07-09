@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <title>简历 | 王毅</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+    <script src="https://at.alicdn.com/t/font_1270864_krkjnip4gnh.js"></script>
+</head>
+
+<body>
+
+    <a class=pdf href=resume.pdf><i class="iconfont icon-pdf"></i> PDF简历</a>
+    <p class=last-modified>积沙成塔 厚积薄发</p>
+    <div class=content>
+        <div class=content-bd>
+            <div class=content-left>
+                <section class=project>
+                    <header class=section-hd>
+                        <span class=section-title-l></span>
+                        <h2 class=section-title>项目经验</h2>
+                        <span class=section-title-r></span>
+                    </header>
+                    <div class=section-bd>
+                        <div class=item>
+                            <header class=item-hd>
+                                <a href="https://github.com/Grit0821/vue-cnode" target=_blank>
+                                    <span class=item-time>
+                                        🔗 Cnode 社区
+                                    </span>
+                                </a>
+                                <a class="btn item-more" href="https://grit0821.github.io/vue-cnode/dist/index.html#/"
+                                    target=_blank>预览</a>
+                            </header>
+                            <div class=item-bd>
+                                <p class=section-content>
+                                    <strong>项目介绍:</strong>该项目以CNode社区为模板，利用<em>Vue.js</em>构建一个单页应用实现社区的基本功能；使用<em>Vue-cli</em>构建项目模板，
+                                    调用官方社区提供的API，使用<em>axios</em>获取响应数据，<em>Vue
+                                        Router</em>实现路由跳转以及参数传递，<em>watch</em>监听路由变化。
+                                </p>
+                                <div class="imgWrapper" >
+                                    <img src="./src/cnode.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class=item>
+                            <header class=item-hd>
+                                <a href="https://github.com/Grit0821/vue-youzan" target=_blank>
+                                    <span class=item-time>
+                                        🔗 Vue 有赞商城
+                                    </span>
+                                </a>
+                                <a class="btn item-more" href="https://grit0821.github.io/vue-youzan/dist/index.html?index=0"
+                                    target=_blank>预览</a>
+                            </header>
+                            <div class=item-bd>
+                                <p class=section-content>
+                                    <strong>项目介绍:</strong>项目使用<em>Vue.js</em>对有赞商城进行重构，配合<em>Easy Mock</em>伪造后台数据进行调试，实现了数据的获取和渲染；
+                                    整个项目为多页应用，包括首页、分类页、列表详情页、购物车页以及个人页；项目使用<em>Vue Router</em>进行路由配置和传参，使用<em>Vuex</em>状态仓库管理数据，
+                                    引用第三方库<em>Swiper</em>、<em>Mint Ui</em>、<em>Velocity.js</em>等实现轮播组件，触底加载数据和点击一键返回顶部等功能。
+                                </p>
+                                <div class="imgWrapper" >
+                                    <img src="./src/youzan.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class=item>
+                            <header class=item-hd>
+                                <a href="https://github.com/Grit0821/react-tomato-app" target=_blank>
+                                    <span class=item-time>
+                                        🔗 React 番茄闹钟
+                                    </span>
+                                </a>
+                                <a class="btn item-more" href="https://grit0821.github.io/react-tomato-app/login"
+                                    target=_blank>预览</a>
+                            </header>
+                            <div class=item-bd>
+                                <p class=section-content>
+                                    <strong>项目介绍:</strong>该项目实现了一款线上的番茄闹钟应用，包括登录、注册、闹钟、代办列表、数据统计等。技术栈采用<em>React</em>加<em>TypeScript</em>,
+                                    使用<em>create-react-app</em>脚手架搭建项目，<em>axios</em>发送请求，<em>React Router</em>配置路由，结合<em>Redux</em>进行数据管理，配合<em>Ant Design</em>UI库构建应用。
+                                </p>
+                                <div class="imgWrapper" >
+                                    <img src="./src/tomato.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class=item>
+                            <header class=item-hd>
+                                <a href="https://github.com/Grit0821/kitty-demo" target=_blank>
+                                    <span class=item-time>
+                                        🔗 可爱猫咪
+                                    </span>
+                                </a>
+                                <a class="btn item-more" href="https://grit0821.github.io/kitty-demo/index.html"
+                                    target=_blank>预览</a>
+                            </header>
+                            <div class=item-bd>
+                                <p class=section-content>
+                                    <strong>项目介绍:</strong>该项目使用原生<em>JS</em>开发出了一个动态显示<em>CSS</em>画小猫咪的作品，
+                                    通过设置计时器动态的将代码字符串写进<em>preview</em>标签和<em>style</em>标签内，
+                                    使用<em>Prism.js</em>实现<em>preview</em>标签内的<em>CSS</em>代码高亮效果，同时实现了三级调速功能，同时适配移动端。
+                                </p>
+                                <div class="imgWrapper kitty" >
+                                    <img src="./src/kitty1.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class=item>
+                            <header class=item-hd>
+                                <a href="https://github.com/Grit0821/canvas-demo" target=_blank>
+                                    <span class=item-time>
+                                        🔗 在线画板
+                                    </span>
+                                </a>
+                                <a class="btn item-more" href="https://grit0821.github.io/canvas-demo/index.html"
+                                    target=_blank>预览</a>
+                            </header>
+                            <div class=item-bd>
+                                <p class=section-content>
+                                    <strong>项目介绍:</strong>该项目使用原生<em>JS</em>开发了一款同时支持PC和手机端的简易在线画板，可以实现作画、橡皮擦、删除、下载以及选择画笔颜色和粗细等功能，
+                                    同时支持将画布保存下载为图片；项目主要调用H5的<em>Canvas API</em>，在手机端和PC端分别监听<em>touch</em>事件和<em>mouse</em>事件实现作画功能。
+                                </p>
+                                <div class="imgWrapper" >
+                                    <img src="./src/canvas.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class=skill>
+                    <header class=section-hd>
+                        <span class=section-title-l></span>
+                        <h2 class=section-title>专业技能</h2>
+                        <span class=section-title-r></span>
+                    </header>
+                    <div class=section-bd>
+                        <ul class=section-list>
+                            <li>
+                                <p class=section-content>
+                                    <i class="iconfont icon-dot"></i>
+                                    熟悉<em>HTML5</em>、<em>CSS3</em>、<em>Sass</em>，掌握<em>CSS3</em>动画、过渡效果、响应式等常用技术，能准确还原设计稿。
+                                </p>
+                            </li>
+                            <li>
+                                <p class=section-content><i class="iconfont icon-dot"></i>
+                                    熟练掌握原生<em>Javascript</em> ，掌握重要概念如：原型，闭包，作用域链，面向对象，异步流程控制等。
+                                    能够根据面向对象思想利用<em>JS</em>/<em>jQuery</em> 封装常用插件。熟练使用 ES6及ES7
+                                    部分新特性，并了解<em>TypeScript</em>的基本概念和使用。
+                                </p>
+                            </li>
+                            <li>
+                                <p class=section-content>
+                                    <i class="iconfont icon-dot"></i>
+                                    熟悉动态<em>REM</em>、<em>vw/vh</em>、<em>百分比布局</em>等技术制作适配手机设备的页面。
+                                </p>
+                            </li>
+                            <li>
+                                <p class=section-content>
+                                    <i class="iconfont icon-dot"></i>
+                                    熟悉<em>Vue</em>框架及相关流行库的使用，理解如生命周期钩子、组件、数据绑定和指令事件等基本概念，掌握<em>Vuex</em>状态管理、<em>Vue
+                                        Router</em>的概念及使用，
+                                    能够使用Vue全家桶进行项目的开发。
+                                </p>
+                            </li>
+                            <li>
+                                <p class=section-content>
+                                    <i class="iconfont icon-dot"></i>
+                                    熟悉<em>React</em>框架及相关流行库的使用，理解如生命周期、组件、虚拟DOM等基本概念，掌握<em>Redux</em>、<em>React
+                                        Hooks</em>、<em>React Router</em>的概念及使用，
+                                    能够使用React全家桶进行项目的开发。
+                                </p>
+                            </li>
+                            <li>
+                                <p class=section-content><i class="iconfont icon-dot"></i>
+                                    熟练使用<em>Git</em>进行版本控制和代码托管、<em>Markdown</em>进行文档编写，并以<em>VS code</em>
+                                    <em>WebStorm</em>作为日常开发环境进行工作，熟悉<em>Webpack</em>打包工具的配置和使用，了解项目开发流程及开发调试工具的使用。
+                                </p>
+                            </li>
+                            <li>
+                                <p class=section-content><i class="iconfont icon-dot"></i>
+                                    英语能力良好，<em>CET 6: 541</em>，能够较为流畅的阅读英文文档，以及面向Google和Stack Overflow编程:)。拥有良好的总结习惯，
+                                    坚持书写技术博客。
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class=prize>
+                    <header class=section-hd>
+                        <span class=section-title-l></span>
+                        <h2 class=section-title>奖项证书</h2>
+                        <span class=section-title-r></span>
+                    </header>
+                    <div class=section-bd>
+                        <div class=item>
+                            <header class=item-hd>
+                                <span class=item-time>2015.12</span>
+                                <span class=item-more>国家级</span>
+                                <h3 class=item-name>全国大学生英语竞赛三等奖</h3>
+                            </header>
+                        </div>
+                        <div class=item>
+                            <header class=item-hd>
+                                <span class=item-time>2017.05</span>
+                                <span class=item-more>省级</span>
+                                <h3 class=item-name>山东省优秀毕业生</h3>
+                            </header>
+                        </div>
+                        <div class=item>
+                            <header class=item-hd>
+                                <span class=item-time>2017.09</span>
+                                <span class=item-more>校级</span>
+                                <h3 class=item-name>大连理工大学二等学业奖学金</h3>
+                            </header>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <header class="content-right content-hd">
+                <section class=title>
+                    <img class=avator src="src/avator.jpg">
+                    <div class=name>
+                        <h1>王毅</h1>
+                    </div>
+                    <h2 class="job">Web前端开发工程师</h2>
+                </section>
+
+                <section class=info>
+                    <h2>男 / 1995.08</h2>
+                    <h3>大连理工大学 / 车辆工程(硕士) </h3>
+                    <h3>山东科技大学 / 车辆工程(学士) </h3>
+                    <h3>预计毕业时间 : 2020.06</h3>
+                </section>
+
+                <div class="skill-level" id="skill-level">
+                    // 技能雷达图
+                    <script>
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('skill-level'));
+                        // 指定图表的配置项和数据
+                        var option = {
+                            title: {
+                                text: null
+                            },
+                            tooltip: {},
+                            legend: {
+                                data: []
+                            },
+                            radar: {
+                                name: {
+                                    textStyle: {
+                                        // 各项的字体颜色
+                                        color: '#00B38A',
+                                        // 背景颜色
+                                        backgroundColor: '#fff',
+                                        borderRadius: 3,
+                                        padding: [3, 5]
+                                    }
+                                },
+                                indicator: [
+                                    { name: 'TypeScript', max: 100 },
+                                    { name: 'CSS', max: 100 },
+                                    { name: 'HTML', max: 100 },
+                                    { name: 'JavaScript', max: 100 },
+                                    { name: 'Webpack', max: 100 },
+                                    { name: 'React', max: 100 },
+                                    { name: 'Vue', max: 100 },
+
+                                ],
+                                splitArea: {
+                                    areaStyle: {
+                                        color: ['#FFF', '#FFF', '#FFF'],
+                                        shadowColor: 'rgba(0, 0, 0, 0.8)',
+                                        shadowBlur: 1
+
+                                    }
+                                },
+                                splitLine: {
+                                    lineStyle: {
+                                        color: ['#ddd', '#ddd']
+                                    }
+                                }
+                            },
+                            series: [{
+                                type: 'radar',
+                                // areaStyle: {normal: {}},
+                                data: [
+                                    {
+                                        value: [72, 85, 90, 82, 68, 72, 80],
+                                        symbolSize: 0.5,
+                                        lineStyle: {
+                                            normal: {
+                                                color: '#00B38A',
+                                                width: 3
+                                            }
+                                        },//折线样式
+                                    },
+
+                                ]
+                            }]
+                        };
+                        // 使用刚指定的配置项和数据显示图表。
+                        myChart.setOption(option);
+                    </script>
+                </div>
+
+                <section class=contact>
+                    <ul>
+                        <li>
+                            <a href="https://mail.google.com/mail" target=_blank>
+                                <svg class="icon iconfont icon-homepage" aria-hidden="true">
+                                    <use xlink:href="#icon-mail_fill-copy"></use>
+                                </svg>
+                                <!-- <i class="iconfont icon-homepage"></i> -->
+                                <span class=contact-link>wangyi95821@gmail.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=https://github.com/Grit0821 target=_blank>
+                                <svg class="icon iconfont icon-homepage" aria-hidden="true">
+                                    <use xlink:href="#icon-git"></use>
+                                </svg>
+                                <!-- <i class="iconfont icon-github"></i> -->
+                                <span class=contact-link>github.com/Grit0821</span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https:www.jianshu.com/u/7b1dceb7ff13" target=_blank>
+                                <svg class="icon iconfont icon-homepage" aria-hidden="true">
+                                    <use xlink:href="#icon-jianshu"></use>
+                                </svg>
+                                <!-- <i class="iconfont icon-email"></i> -->
+                                <span class=contact-link>Grit0821</span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zhihu.com/people/wang-yi-60-59-4/activities" target=_blank>
+                                <svg class="icon iconfont icon-homepage" aria-hidden="true">
+                                    <use xlink:href="#icon-zhihu"></use>
+                                </svg>
+                                <!-- <i class="iconfont icon-phone"></i> -->
+                                <span class=contact-link>Grit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </header>
+
+        </div>
+        <footer class=print-footer>
+            <a class=footer-link href=http://resume.toadw.cn target=_blank><i class="iconfont icon-link"></i>
+                网页版简历：resume.toadw.cn</a>
+        </footer>
+    </div>
+    <footer class=github-footer><a class=footer-link href=https://github.com/toadwoo/resume target=_blank><i
+                class="iconfont icon-link"></i> github.com/toadwoo/resume</a>
+    </footer>
+
+</body>
+
+
+<!-- <script>
+    /* CNZZ统计 */
+    (function () {
+        var box = document.createElement("div"),
+            cnzz = document.createElement("script");
+        box.style.display = "none";
+        cnzz.src = "//s1.cnzz.com/z_stat.php?id=1261540579";
+        box.appendChild(cnzz);
+        document.body.appendChild(box);
+    })();
+
+</script> -->
+
+</html>
